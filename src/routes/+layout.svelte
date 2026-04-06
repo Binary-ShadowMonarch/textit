@@ -11,24 +11,25 @@
 </script>
 
 <svelte:head>
-	<!-- Basic meta -->
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="theme-color" content="#ffffff" />
+	<meta name="theme-color" content="#0f172a" />
+	<meta name="application-name" content="TextIt" />
+	<meta
+		name="description"
+		content="TextIt converts long text and uploaded files into multiple formats for chat uploads, docs, and developer workflows."
+	/>
+	<title>TextIt | Upload-ready text converter</title>
 
-	<!-- Favicon and icons -->
-	<link rel="icon" type="image/svg+xml" href={favicon} />
+	<link rel="icon" type="image/x-icon" href={favicon} />
 	<link rel="icon" type="image/png" sizes="16x16" href={icon16} />
 	<link rel="icon" type="image/png" sizes="32x32" href={icon32} />
+	<link rel="icon" type="image/png" sizes="192x192" href={android192} />
+	<link rel="icon" type="image/png" sizes="512x512" href={android512} />
 	<link rel="apple-touch-icon" href={appleTouchIcon} />
 
-	<!-- Android / PWA icons -->
-	<link rel="manifest" href="/manifest.webmanifest" />
+	<link rel="manifest" href="/site.webmanifest" />
 	<link rel="shortcut icon" href={favicon} />
-
-	<!-- Optional SEO / App Info -->
-	<title>My Svelte App</title>
-	<meta name="description" content="A modern Svelte app with proper favicon setup." />
 </svelte:head>
 
 <!-- App content -->
